@@ -1,115 +1,67 @@
 /* Landing Page CSS */
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 	background-color: #96E4FF;
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
 
-#animated-cloud-background {
-    padding: 20px;
-    max-height: 50%;
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin-left: -1500px;
 }
 
-@-webkit-keyframes animateCloud {
-    0% {
-        margin-left: -500px;
-    }
-    100% {
-        margin-left: 50%;
-    }
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-@-moz-keyframes animateCloud {
-    0% {
-        margin-left: -500px;
-    }
-    100% {
-        margin-left: 50%;
-    }
+.parallax__layer img {
+    left: 200px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  bottom: 0;
 }
 
-@keyframes animateCloud {
-    0% {
-        margin-left: -500px;
-    }
-    100% {
-        margin-left: 50%;
-    }
+.parallax__cover {
+  background: #2D112B;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 2000px;
+  z-index: 2;
 }
 
-#animated-cloud-background .cloud {
-    position: absolute;
-    top: 0;
-    left: 0;
+.parallax__layer__4 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
 }
 
-#animated-cloud-background .cloud.cloud-1 {
-    top: 10%;
-    
-    -webkit-animation-delay: 30s; 
-    animation-delay: 30s; 
-    
-	-webkit-animation: animateCloud 70s linear infinite;
-	-moz-animation: animateCloud 70s linear infinite;
-	animation: animateCloud 70s linear infinite;
-	
-	-webkit-transform: scale(0.65);
-	-moz-transform: scale(0.65);
-	transform: scale(0.65);
-    
-    z-index: -5;
+.parallax__layer__5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
 }
 
-#animated-cloud-background .cloud.cloud-2 {
-    top: 40%;
-    
-    -webkit-animation: animateCloud 80s linear infinite;
-	-moz-animation: animateCloud 80s linear infinite;
-	animation: animateCloud 80s linear infinite;
-	
-	-webkit-transform: scale(0.3);
-	-moz-transform: scale(0.3);
-	transform: scale(0.3);
-    
-    z-index: -4;
-}
-
-#animated-cloud-background .cloud.cloud-3 {
-    -webkit-animation: animateCloud 55s linear infinite;
-	-moz-animation: animateCloud 55s linear infinite;
-	animation: animateCloud 55s linear infinite;
-	
-	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-	transform: scale(0.5);
-    
-    z-index: -3;
-}
-
-#animated-cloud-background .cloud.cloud-4 {
-    top: 30%;
-    
-    -webkit-animation: animateCloud 70s linear infinite;
-	-moz-animation: animateCloud 70s linear infinite;
-	animation: animateCloud 70s linear infinite;
-	
-	-webkit-transform: scale(0.4);
-	-moz-transform: scale(0.4);
-	transform: scale(0.4);
-    
-    z-index: -2;
-}
-
-#animated-cloud-background .cloud.cloud-5 {
-    -webkit-animation: animateCloud 80s linear infinite;
-	-moz-animation: animateCloud 80s linear infinite;
-	animation: animateCloud 80s linear infinite;
-	
-	-webkit-transform: scale(0.2);
-	-moz-transform: scale(0.2);
-	transform: scale(0.2);
-    
-    z-index: -1;
+.parallax__layer__6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
 }
