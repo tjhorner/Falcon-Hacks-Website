@@ -1,0 +1,18 @@
+/* Landing Page CSS */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #96E4FF;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.signuplogo {
+    height: 200px;
+    widows: auto;
+    z-index: 3;
+}
