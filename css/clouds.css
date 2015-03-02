@@ -5,7 +5,7 @@
 
 @-webkit-keyframes animateCloud {
     0% {
-        margin-left: -500px;
+        margin-left: 0px;
     }
     100% {
         margin-left: 140%;
@@ -14,7 +14,7 @@
 
 @-moz-keyframes animateCloud {
     0% {
-        margin-left: -500px;
+        margin-left: 0px;
     }
     100% {
         margin-left: 140%;
@@ -23,7 +23,7 @@
 
 @keyframes animateCloud {
     0% {
-        margin-left: -500px;
+        margin-left: 0spx;
     }
     100% {
         margin-left: 140%;
@@ -40,74 +40,68 @@
     top: 10%;
     left: -500px;
     
-	-webkit-animation: animateCloud 70s linear infinite;
-	-moz-animation: animateCloud 70s linear infinite;
-	animation: animateCloud 70s linear infinite;
+	-webkit-animation: animateCloud 90s linear infinite;
+	-moz-animation: animateCloud 90s linear infinite;
+	animation: animateCloud 90s linear infinite;
 	
-	-webkit-transform: scale(0.65);
-	-moz-transform: scale(0.65);
-	transform: scale(0.65);
-    
-    -webkit-animation-delay: 1s; 
-    animation-delay: 1s; 
+	-webkit-transform: scale(0.45);
+	-moz-transform: scale(0.45);
+	transform: scale(0.45);
     
     z-index: -5;
 }
 
 #animated-cloud-background .cloud.cloud-2 {
-    top: 40%;
-    left: -500px;
+    top: 50%;
+    left: -30px;
     
-    -webkit-animation: animateCloud 80s linear infinite;
-	-moz-animation: animateCloud 80s linear infinite;
-	animation: animateCloud 80s linear infinite;
+    -webkit-animation: animateCloud 100s linear infinite;
+	-moz-animation: animateCloud 100s linear infinite;
+	animation: animateCloud 100s linear infinite;
 	
-	-webkit-transform: scale(0.3);
-	-moz-transform: scale(0.3);
-	transform: scale(0.3);
-    
-    -webkit-animation-delay: 2s; 
-    animation-delay: 2s; 
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
     
     z-index: -4;
 }
 
 #animated-cloud-background .cloud.cloud-3 {
-    -webkit-animation: animateCloud 55s linear infinite;
-	-moz-animation: animateCloud 55s linear infinite;
-	animation: animateCloud 55s linear infinite;
+    -webkit-animation: animateCloud 75s linear infinite;
+	-moz-animation: animateCloud 75s linear infinite;
+	animation: animateCloud 75s linear infinite;
 	
-	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-	transform: scale(0.5);
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3;
+	transform: scale(0.3);
     
     z-index: -3;
 }
 
 #animated-cloud-background .cloud.cloud-4 {
-    top: 30%;
+    top: 80%;
     
-    -webkit-animation: animateCloud 70s linear infinite;
-	-moz-animation: animateCloud 70s linear infinite;
-	animation: animateCloud 70s linear infinite;
+    -webkit-animation: animateCloud 90s linear infinite;
+	-moz-animation: animateCloud 90s linear infinite;
+	animation: animateCloud 90s linear infinite;
 	
-	-webkit-transform: scale(0.4);
-	-moz-transform: scale(0.4);
-	transform: scale(0.4);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
     
     z-index: -2;
 }
 
 #animated-cloud-background .cloud.cloud-5 {
-    top: -12%;
+    top: -10%;
     
-    -webkit-animation: animateCloud 80s linear infinite;
-	-moz-animation: animateCloud 80s linear infinite;
-	animation: animateCloud 80s linear infinite;
+    -webkit-animation: animateCloud 100s linear infinite;
+	-moz-animation: animateCloud 100s linear infinite;
+	animation: animateCloud 100s linear infinite;
 	
-	-webkit-transform: scale(0.2);
-	-moz-transform: scale(0.2);
-	transform: scale(0.2);
+	-webkit-transform: scale(0.1);
+	-moz-transform: scale(0.1);
+	transform: scale(0.1);
     
     z-index: -1;
 }
