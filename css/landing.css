@@ -12,7 +12,10 @@ body {
 }
 
 .signuplogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
-    widows: auto;
-    z-index: 3;
+    width: auto;
+    z-index: 1;
 }
