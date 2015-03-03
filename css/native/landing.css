@@ -1,0 +1,152 @@
+/* Landing Page CSS */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #96E4FF;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 1.1em;
+    margin: 0px 10px 0px 10px;
+}
+
+nav ul li a {
+    color: #FF74AA;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #F55091;
+}
+
+.right {
+    float: right;
+}
+
+/* Clouds */
+#welcome {
+    padding: 230px;
+    max-height: 100%;
+    text-align: center;
+}
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -25%;
+    }
+    100% {
+        margin-left: 140%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -25%;
+    }
+    100% {
+        margin-left: 140%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -25%;
+    }
+    100% {
+        margin-left: 140%;
+    }
+}
+
+#welcome .cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#welcome .cloud.cloud-1 {
+    top: 20%;
+    left: -500px;
+    
+	-webkit-animation: animateCloud 90s linear infinite;
+	-moz-animation: animateCloud 90s linear infinite;
+	animation: animateCloud 90s linear infinite;
+	
+	-webkit-transform: scale(0.45);
+	-moz-transform: scale(0.45);
+	transform: scale(0.45);
+    
+    z-index: -5;
+}
+
+#welcome .cloud.cloud-2 {
+    top: 60%;
+    left: -30px;
+    
+    -webkit-animation: animateCloud 100s linear infinite;
+	-moz-animation: animateCloud 100s linear infinite;
+	animation: animateCloud 100s linear infinite;
+	
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
+    
+    z-index: -4;
+}
+
+#welcome .cloud.cloud-3 {
+    -webkit-animation: animateCloud 75s linear infinite;
+	-moz-animation: animateCloud 75s linear infinite;
+	animation: animateCloud 75s linear infinite;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+    
+    z-index: -3;
+}
+
+/* Registration */
+.logo {
+    margin-top: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    height: 300px;
+    width: auto;
+}
+
+.text {
+    font-weight: 300;
+    color: #FF74AA;
+}
+
+.onboard a {
+    border: 1px solid black;
+}
