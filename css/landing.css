@@ -19,7 +19,7 @@ body {
 }
 
 .intrologo {
-    margin-top: -10%;
+    margin-top: -2%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,7 +31,7 @@ body {
 
 .date {
     margin-left: 40%;
-    margin-top: -6%;
+    margin-top: -8%;
     margin-bottom: -130px;
     text-align: center;
     font-weight: 300;
