@@ -21,9 +21,8 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
-    margin-top: 10px;
 }
 
 nav ul li {
@@ -46,7 +45,7 @@ nav ul li a:hover {
     float: right;
 }
 
-/* Clouds */
+/* Clouds - IT WORKS I DON'T KNOW HOW DON'T TOUCH */
 #welcome {
     padding: 230px;
     max-height: 100%;
@@ -142,11 +141,23 @@ nav ul li a:hover {
     width: auto;
 }
 
-.text {
+.tagline {
+    font-weight: 300;
+    color: #FF74AA;
+}
+
+.info {
     font-weight: 300;
     color: #FF74AA;
 }
 
 .onboard a {
-    border: 1px solid black;
+    border: solid 2px #2ECC71;
+    background-color: transparent;
+    color: #2ECC71;
+}
+
+.onboard a:hover {
+    background-color: #2ECC71;
+    color: #96E4FF;
 }
