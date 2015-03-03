@@ -11,11 +11,38 @@ body {
     overflow-x: hidden;
 }
 
-.signuplogo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.intro {
+    left: 30%;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.intrologo {
+    margin-top: -10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 200px;
     width: auto;
     z-index: 1;
+}
+
+.date {
+    margin-left: 40%;
+    margin-top: -6%;
+    margin-bottom: -130px;
+    text-align: center;
+    font-weight: 300;
+    color: #FF74AA;
+}
+
+.notifyme {
+    margin-left: 40%;
+    margin-top: 7%;
+    margin-bottom: -130px;
+    text-align: center;
+    font-weight: 300;
+    color: #FF74AA;
 }
