@@ -11,57 +11,38 @@ body {
     overflow-x: hidden;
 }
 
-.parallax {
-  -webkit-perspective: 100px;
-          perspective: 100px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  margin-left: -1500px;
+.intro {
+    left: 30%;
+    position: relative;
+    height: 500px;
+    width: 100%;
 }
 
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.intrologo {
+    margin-top: -2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: auto;
+    z-index: 1;
 }
 
-.parallax__layer img {
-    left: 200px;
-  height: 300px;
-  display: block;
-  position: absolute;
-  bottom: 0;
+.date {
+    margin-left: 40%;
+    margin-top: -8%;
+    margin-bottom: -130px;
+    text-align: center;
+    font-weight: 300;
+    color: #FF74AA;
 }
 
-.parallax__cover {
-  background: #2D112B;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  height: 2000px;
-  z-index: 2;
-}
-
-.parallax__layer__4 {
-  -webkit-transform: translateZ(-100px) scale(2);
-          transform: translateZ(-100px) scale(2);
-}
-
-.parallax__layer__5 {
-  -webkit-transform: translateZ(-50px) scale(1.5);
-          transform: translateZ(-50px) scale(1.5);
-}
-
-.parallax__layer__6 {
-  -webkit-transform: translateZ(0px) scale(1);
-          transform: translateZ(0px) scale(1);
+.notifyme {
+    margin-left: 40%;
+    margin-top: 7%;
+    margin-bottom: -130px;
+    text-align: center;
+    font-weight: 300;
+    color: #FF74AA;
 }
