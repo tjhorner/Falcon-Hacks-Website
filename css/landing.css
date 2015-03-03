@@ -11,38 +11,11 @@ body {
     overflow-x: hidden;
 }
 
-.intro {
-    left: 30%;
-    position: relative;
-    height: 500px;
-    width: 100%;
-}
-
-.intrologo {
-    margin-top: -2%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 200px;
+.flex_zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: auto;
-    z-index: 1;
-}
-
-.date {
-    margin-left: 40%;
-    margin-top: -8%;
-    margin-bottom: -130px;
-    text-align: center;
-    font-weight: 300;
-    color: #FF74AA;
-}
-
-.notifyme {
-    margin-left: 40%;
-    margin-top: 7%;
-    margin-bottom: -130px;
-    text-align: center;
-    font-weight: 300;
-    color: #FF74AA;
 }

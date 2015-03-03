@@ -38,11 +38,6 @@
   z-index: 5;
 }
 
-.parallax__layer__4 {
-  -webkit-transform: translateZ(-100px) scale(2);
-          transform: translateZ(-100px) scale(2);
-}
-
 .parallax__layer__5 {
   -webkit-transform: translateZ(-50px) scale(1.5);
           transform: translateZ(-50px) scale(1.5);
