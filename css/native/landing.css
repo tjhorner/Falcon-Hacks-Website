@@ -33,12 +33,16 @@ nav ul li {
 
 nav ul li a {
     color: #FF74AA;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: #F55091;
+}
+
+nav ul li i {
+    margin: 0px 10px 0px 10px;
 }
 
 .right {
@@ -101,7 +105,7 @@ nav ul li a:hover {
 }
 
 #welcome .cloud.cloud-2 {
-    top: 60%;
+    top: 65%;
     left: -30px;
     
     -webkit-animation: animateCloud 100s linear infinite;
@@ -129,7 +133,7 @@ nav ul li a:hover {
 
 /* Registration */
 .logo {
-    margin-top: -20%;
+    margin-top: -18%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,23 +145,27 @@ nav ul li a:hover {
     width: auto;
 }
 
-.tagline {
-    font-weight: 300;
-    color: #FF74AA;
-}
-
 .info {
-    font-weight: 300;
+    font-weight: 400;
     color: #FF74AA;
 }
 
 .onboard a {
-    border: solid 2px #2ECC71;
-    background-color: transparent;
-    color: #2ECC71;
+    -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    border: 1px solid #96E4FF;
+    background-color: #2ECC71;
+    color: #96E4FF;
 }
 
 .onboard a:hover {
-    background-color: #2ECC71;
-    color: #96E4FF;
+    -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
+    background-color: transparent;
+    border-color: #2ECC71;
+    color: #2ECC71;
 }
