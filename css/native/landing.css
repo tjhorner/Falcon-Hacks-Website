@@ -141,17 +141,18 @@ nav ul li i {
 }
 
 .logo img {
+    width: 40vw;
     height: auto;
-    min-width: 50%;
-    max-width: 70%;
 }
 
-.info {
+.row.info {
+    margin-top: -20%;
     font-weight: 400;
     color: #FF74AA;
+    text-align: center;
 }
 
-.onboard a {
+.btn {
     -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
@@ -162,7 +163,7 @@ nav ul li i {
     color: #2ECC71;
 }
 
-.onboard a:hover {
+.btn:hover {
     -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
@@ -171,7 +172,7 @@ nav ul li i {
     color: #96E4FF;
 }
 
-.onboard a:active {
+.btn:active {
     -webkit-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -moz-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     -o-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
