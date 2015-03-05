@@ -13,10 +13,11 @@ body {
 
 /* Navigation Bar */
 nav {
+    margin-top: 3%;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 nav ul {
@@ -27,13 +28,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-size: 1.1em;
     margin: 0px 10px 0px 10px;
 }
 
 nav ul li a {
     color: #FF74AA;
-    font-weight: 400;
 }
 
 nav ul li a:hover {
@@ -49,7 +48,7 @@ nav ul li i {
     float: right;
 }
 
-/* Clouds - IT WORKS I DON'T KNOW HOW DON'T TOUCH */
+/* Clouds */
 #welcome {
     padding: 230px;
     max-height: 100%;
@@ -184,4 +183,19 @@ nav ul li i {
     -ms-transition: background-color .4s linear, border-color .4s linear, color .4s linear;
     background-color: #2ECC71;
     color: #96E4FF;
+}
+
+.mouse {
+  display: block;
+  height: 46px;
+  left: 50%;
+  margin: 10px 0 0 -13px;
+  position: absolute;
+  width: 26px;
+}
+
+.mouse span {
+  display: block;
+  font-size: 1.5em;
+  margin: 6px auto;
 }
